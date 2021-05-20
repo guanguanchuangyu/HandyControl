@@ -1,19 +1,39 @@
-[中文](https://github.com/HandyOrg/HandyControl/blob/master/README-cn.md) - [English](https://github.com/HandyOrg/HandyControl/blob/master/README.md)
+<p align="center">
+    <img align="center" src="https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/Cover.png">
+</p>
 
-![logo](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/icon.png)
+<p align="center">
+    <a href="https://github.com/HandyOrg/HandyControl/blob/master/README-cn.md">中文</a> 
+    ❤ 
+    <a href="https://github.com/HandyOrg/HandyControl/blob/master/README.md">English</a>
+</p>
 
-![dotnet-version](https://img.shields.io/badge/.net-%3E%3D4.0-blue.svg) ![csharp-version](https://img.shields.io/badge/C%23-8.0-blue.svg) ![IDE-version](https://img.shields.io/badge/IDE-vs2019-blue.svg) [![nuget-version](https://img.shields.io/nuget/v/HandyControl.svg)](https://www.nuget.org/packages/HandyControl) ![Github-build-status](https://github.com/HandyOrg/HandyControl/workflows/build/badge.svg) [![Join the chat at https://gitter.im/HandyControl/Lobby](https://badges.gitter.im/HandyControl/Lobby.svg)](https://gitter.im/HandyControl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![wiki](https://img.shields.io/badge/wiki-Complete-brightgreen.svg)](https://github.com/ghost1372/HandyControl/wiki) [![Nuget](https://img.shields.io/nuget/dt/handycontrol)](https://www.nuget.org/packages/HandyControl)
-
-# Welcome to HandyControl
+<p align="center">
+    <img alt="dotnet-version" src="https://img.shields.io/badge/.net-%3E%3D4.0-blue.svg"></img>
+    <img alt="csharp-version" src="https://img.shields.io/badge/C%23-8.0-blue.svg"></img>
+    <img alt="IDE-version" src="https://img.shields.io/badge/IDE-vs2019-blue.svg"></img>
+    <a href="https://www.nuget.org/packages/HandyControl">
+        <img alt="nuget-version" src="https://img.shields.io/nuget/v/HandyControl.svg"></img>
+    </a> 
+    <a href="https://www.myget.org/feed/handycontrol/package/nuget/HandyControl">
+        <img alt="myget-version" src="https://img.shields.io/myget/handycontrol/v/handycontrol?color=orange&label=myget"></img>
+    </a> 
+    <a href="https://github.com/HandyOrg/HandyControl/actions?query=workflow%3Abuild">
+        <img alt="Github-build-status" src="https://github.com/HandyOrg/HandyControl/workflows/build/badge.svg"></img>
+    </a>
+    <a href="https://gitter.im/HandyControl/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge">
+        <img alt="Join the chat at https://gitter.im/HandyControl/Lobby" src="https://badges.gitter.im/HandyControl/Lobby.svg"></img>
+    </a> 
+    <a href="https://www.nuget.org/packages/HandyControl">
+        <img alt="Nuget" src="https://img.shields.io/nuget/dt/handycontrol"></img>
+    </a> 
+</p>
 
 ## 面向中国
 
-### 加入讨论
+### 招聘
 
-| | 西江月群 | 定风波群 | 广寒秋群 |
-|-|:-:|:-:|:-:|
-| 群号码 | [![qq-group](https://img.shields.io/badge/qq-714704041-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=a571e5553c9d41e49c4f22f3a8b2865451497a795ff281fedf3285def247efc1) | [![qq-group](https://img.shields.io/badge/qq-858784803-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=5c18622a0f6ee07a6f33afa8cdb85b1f72ea50e878271dfcec919c76b55afee7) | 微信群 |
-| 二维码 | ![qq-group](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/qq_group_1.png) | ![qq-group](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/qq_group_2.png) | ![wechat-group](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/wechat_group.png) |
+百度地图，招 WPF 研发工程师，坐标上海，有意私聊 836904362@qq.com
 
 ### 码云
 
@@ -24,12 +44,18 @@
 [https://handyorg.github.io/handycontrol/](https://handyorg.github.io/handycontrol/)
 
 ### 赞助
-如果您觉得HandyControl还不错，并且刚好有些闲钱，那么可以选择以下两种方式来赞助（记得入群联系我们呀~~）：
 
-* [以HandyControl的名义为慈善事业做贡献](http://www.chinacharityfederation.org/ConfirmDonation/0.html?zhijie=3)  
+* [以HandyControl的名义为慈善事业做贡献（请联系我们上赞助墙）](http://www.chinacharityfederation.org/ConfirmDonation/0.html?zhijie=3)  
 
-* 为我们购买防脱洗发水  
-![qrcode](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/qrcode.png)
+* 扫码入群 
+
+| | 西江月群 | 定风波群 |
+|-|:-:|:-:|
+| 群号码 | [![qq-group](https://img.shields.io/badge/qq-714704041-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=a571e5553c9d41e49c4f22f3a8b2865451497a795ff281fedf3285def247efc1) | [![qq-group](https://img.shields.io/badge/qq-858784803-red.svg)](//shang.qq.com/wpa/qunwpa?idkey=5c18622a0f6ee07a6f33afa8cdb85b1f72ea50e878271dfcec919c76b55afee7) | 微信群 |
+| 二维码 | ![qq-group](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/qq_group_1.png) | ![qq-group](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/qq_group_2.png) |
+
+* 为我们购买防脱洗发水 （支付宝扫码）  
+![qrcode](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/qrcode.png)
 
 ## Contributors
 
@@ -58,6 +84,7 @@
 <a href="https://github.com/GF-Huang" target="_blank"><img style="border-radius:50%!important" width="64px" alt="GF-Huang" src="https://avatars1.githubusercontent.com/u/4510984?s=64v=4"></a>
 <a href="https://github.com/cuiliang" target="_blank"><img style="border-radius:50%!important" width="64px" alt="cuiliang" src="https://avatars2.githubusercontent.com/u/1972649?s=64&v=4"></a>
 <a href="https://github.com/lwqwag" target="_blank"><img style="border-radius:50%!important" width="64px" alt="lwqwag" src="https://avatars3.githubusercontent.com/u/29883542?s=64&v=4"></a>
+<a href="https://github.com/Epacik" target="_blank"><img style="border-radius:50%!important" width="64px" alt="Epacik" src="https://avatars.githubusercontent.com/u/23077337?s=64&v=4"></a>
 
 ## Backers
 
@@ -83,13 +110,40 @@
 <a href="https://github.com/dspcjy" target="_blank"><img style="border-radius:50%!important" width="64px" alt="dspcjy" src="https://avatars3.githubusercontent.com/u/17764711?s=64&v=4"></a>
 <a href="https://github.com/yaronzz" target="_blank"><img style="border-radius:50%!important" width="64px" alt="yaronzz" src="https://avatars0.githubusercontent.com/u/15530958?s=64&v=4"></a>
 <a href="https://github.com/cuiliang" target="_blank"><img style="border-radius:50%!important" width="64px" alt="cuiliang" src="https://avatars2.githubusercontent.com/u/1972649?s=64&v=4"></a>
+<a href="https://github.com/GenmTim" target="_blank"><img style="border-radius:50%!important" width="64px" alt="GenmTim" src="https://avatars.githubusercontent.com/u/69684108?s=64&v=4"></a>
+<a href="https://github.com/ms1094392787" target="_blank"><img style="border-radius:50%!important" width="64px" alt="ms1094392787" src="https://avatars.githubusercontent.com/u/49998334?s=64&v=4"></a>
+<a href="https://gitee.com/ZJHome" target="_blank"><img style="border-radius:50%!important" width="64px" alt="ZJHome" src="https://tvax2.sinaimg.cn/crop.0.0.1080.1080.180/69543af8ly8gf4iat3amdj20u00u0whg.jpg"></a>
+<a href="https://github.com/JeremyWu917" target="_blank"><img style="border-radius:50%!important" width="64px" alt="JeremyWu917" src="https://avatars.githubusercontent.com/u/54832272?s=64&v=4"></a>
+<a href="https://github.com/cagedh1" target="_blank"><img style="border-radius:50%!important" width="64px" alt="cagedh1" src="https://avatars.githubusercontent.com/u/48586139?s=64&v=4"></a>
+<a href="https://github.com/Yangf85" target="_blank"><img style="border-radius:50%!important" width="64px" alt="Yangf85" src="https://avatars.githubusercontent.com/u/42733580?s=64&v=4"></a>
+<a href="https://github.com/hellozy320" target="_blank"><img style="border-radius:50%!important" width="64px" alt="hellozy320" src="https://avatars.githubusercontent.com/u/68945043?s=64&v=4"></a>
+<a href="https://github.com/inows" target="_blank"><img style="border-radius:50%!important" width="64px" alt="inows" src="https://avatars.githubusercontent.com/u/15324558?s=64&v=4"></a>
+<a href="https://github.com/oo-simbo" target="_blank"><img style="border-radius:50%!important" width="64px" alt="oo-simbo" src="https://avatars.githubusercontent.com/u/49231532?s=64&v=4"></a>
+<a href="https://github.com/775253959" target="_blank"><img style="border-radius:50%!important" width="64px" alt="775253959" src="https://avatars.githubusercontent.com/u/24452103?s=64&v=4"></a>
+<a href="https://github.com/IanXxu" target="_blank"><img style="border-radius:50%!important" width="64px" alt="IanXxu" src="https://avatars.githubusercontent.com/u/19760451?s=64&v=4"></a>
+<a href="https://github.com/NightwishMeng" target="_blank"><img style="border-radius:50%!important" width="64px" alt="NightwishMeng" src="https://avatars.githubusercontent.com/u/32695316?s64&v=4"></a>
+<a href="https://github.com/tonghudan" target="_blank"><img style="border-radius:50%!important" width="64px" alt="tonghudan" src="https://avatars.githubusercontent.com/u/14705603?s=64&v=4"></a>
+<a href="https://github.com/Removable" target="_blank"><img style="border-radius:50%!important" width="64px" alt="Removable" src="https://avatars.githubusercontent.com/u/7271713?s=64&v=4"></a>
+<a href="https://github.com/nicecodeclub" target="_blank"><img style="border-radius:50%!important" width="64px" alt="nicecodeclub" src="https://avatars.githubusercontent.com/u/12929071?s=64&v=4"></a>
+<a href="https://github.com/Jajison" target="_blank"><img style="border-radius:50%!important" width="64px" alt="Jajison" src="https://avatars.githubusercontent.com/u/60476418?s=64&v=4"></a>
+<a href="https://github.com/xyghy13" target="_blank"><img style="border-radius:50%!important" width="64px" alt="xyghy13" src="https://avatars.githubusercontent.com/u/27751725?s=64&v=4"></a>
+<a href="https://github.com/icarousfff" target="_blank"><img style="border-radius:50%!important" width="64px" alt="icarousfff" src="https://avatars.githubusercontent.com/u/49859230?s=64&v=4"></a>
+<a href="https://github.com/qiang9420d" target="_blank"><img style="border-radius:50%!important" width="64px" alt="qiang9420d" src="https://avatars.githubusercontent.com/u/22925262?s=64&v=4"></a>
 
 ## Special thanks to
 
-[![Visual Studio Community 2019](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/vs2019_logo.png)](https://visualstudio.microsoft.com/free-developer-offers/)
-[![JetBrains](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/resharper_logo.png)](https://www.jetbrains.com/?from=HandyControl)
-[![Cake](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/cake_logo.png)](https://cakebuild.net/)
-[![Gitter](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/gitter_logo.png)](https://gitter.im/)
+[![Visual Studio Community 2019](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/vs2019_logo.png)](https://visualstudio.microsoft.com/free-developer-offers/)
+[![JetBrains](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/resharper_logo.png)](https://www.jetbrains.com/?from=HandyControl)
+[![Cake](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/cake_logo.png)](https://cakebuild.net/)
+[![Gitter](https://gitee.com/handyorg/HandyOrgResource/raw/master/HandyControl/Resources/gitter_logo.png)](https://gitter.im/)
+
+## Projects using HandyControl
+
+<a href="https://getquicker.net" target="_blank"><img width="70px" alt="quicker" src="https://i0.hdslb.com/bfs/face/3765a3d0ce5da37e1aaa830d2eec6d3e0806a2d8.jpg@96w_96h_1c.webp"></a>
+<a href="https://www.phpenv.cn" target="_blank"><img width="70px" alt="phpenv" src="https://www.phpenv.cn/usr/themes/phpenv/img/logo.png"></a>
+<a href="https://atmb.top" target="_blank"><img width="70px" alt="AutumnBox" src="https://atmb.top/images/icon.png"></a>
+
+if your project is not listed here, let us know! 😀
 
 ## Usage
 
@@ -116,7 +170,7 @@ Step 4: Enjoy coding
 
 ## VSIX packages for Visual Studio
 
-| [VS2019](https://marketplace.visualstudio.com/items?itemName=HandyOrg.handycontrolforvs2019) |
+| [VS2019](https://marketplace.visualstudio.com/items?itemName=HandyOrg.HandyControl) |
 | ------------- |
 
 ## Stargazers over time
@@ -130,6 +184,10 @@ Step 4: Enjoy coding
 ![Overview-dark](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/Overview-dark.png)
 
 ## Latest examples
+
+### UniformSpacingPanel
+
+![UniformSpacingPanel](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/UniformSpacingPanel.png)
 
 ### FlexPanel
 
@@ -147,11 +205,11 @@ Step 4: Enjoy coding
 
 ![PropertyGrid](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/PropertyGrid.png)
 
+## History publication
+
 ### Screenshot
 
 ![Screenshot](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/Screenshot.png)
-
-## History publication
 
 ### GooeyEffect
 
@@ -481,9 +539,9 @@ Step 4: Enjoy coding
 
 ![PasswordBox](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/PasswordBox.jpg)
 
-### DataPicker
+### DatePicker
 
-![DataPicker](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/DataPicker.jpg)
+![DatePicker](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/DatePicker.jpg)
 
 ### TimePicker
 
@@ -512,7 +570,3 @@ Step 4: Enjoy coding
 ### Brush
 
 ![Brush](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/Brush.png)
-
-## Switching configuration
-
-![Switching configuration](https://raw.githubusercontent.com/HandyOrg/HandyOrgResource/master/HandyControl/Resources/SwitchConfig.png)

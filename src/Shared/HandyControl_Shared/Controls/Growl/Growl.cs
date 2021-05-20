@@ -56,7 +56,7 @@ namespace HandyControl.Controls
         /// </summary>
         private DispatcherTimer _timerClose;
 
-        private static readonly Dictionary<string, Panel> PanelDic = new Dictionary<string, Panel>();
+        private static readonly Dictionary<string, Panel> PanelDic = new();
 
         #endregion Data
 
@@ -321,6 +321,8 @@ namespace HandyControl.Controls
 
         private void Update()
         {
+            if (DesignerHelper.IsInDesignMode) return;
+
             if (Type == InfoType.Ask)
             {
                 _panelMore.IsEnabled = true;
@@ -338,22 +340,22 @@ namespace HandyControl.Controls
 
         private static void ShowGlobal(GrowlInfo growlInfo)
         {
-            if (GrowlWindow == null)
-            {
-                GrowlWindow = new GrowlWindow();
-                GrowlWindow.Show();
-                InitGrowlPanel(GrowlWindow.GrowlPanel);
-                GrowlWindow.Init();
-            }
-
-            GrowlWindow.Show(true);
-
             Application.Current.Dispatcher?.Invoke(
 #if NET40
                 new Action(
 #endif
                     () =>
                     {
+                        if (GrowlWindow == null)
+                        {
+                            GrowlWindow = new GrowlWindow();
+                            GrowlWindow.Show();
+                            InitGrowlPanel(GrowlWindow.GrowlPanel);
+                            GrowlWindow.Init();
+                        }
+
+                        GrowlWindow.Show(true);
+
                         var ctl = new Growl
                         {
                             Message = growlInfo.Message,
@@ -767,7 +769,7 @@ namespace HandyControl.Controls
             ShowGlobal(growlInfo);
         }
 
-        private void ButtonClose_OnClick(object sender, RoutedEventArgs e) => Close();
+        private void ButtonClose_OnClick(object sender, RoutedEventArgs e) => Close(true, false);
 
         /// <summary>
         ///     关闭

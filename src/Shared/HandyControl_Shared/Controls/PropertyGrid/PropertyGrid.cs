@@ -136,18 +136,22 @@ namespace HandyControl.Controls
 
         private void SortByCategory(object sender, ExecutedRoutedEventArgs e)
         {
+            if (_dataView == null) return;
+
             using (_dataView.DeferRefresh())
             {
                 _dataView.GroupDescriptions.Clear();
                 _dataView.SortDescriptions.Clear();
                 _dataView.SortDescriptions.Add(new SortDescription(PropertyItem.CategoryProperty.Name, ListSortDirection.Ascending));
-                _dataView.SortDescriptions.Add(new SortDescription(PropertyItem.PropertyNameProperty.Name, ListSortDirection.Ascending));
+                _dataView.SortDescriptions.Add(new SortDescription(PropertyItem.DisplayNameProperty.Name, ListSortDirection.Ascending));
                 _dataView.GroupDescriptions.Add(new PropertyGroupDescription(PropertyItem.CategoryProperty.Name));
             }
         }
 
         private void SortByName(object sender, ExecutedRoutedEventArgs e)
         {
+            if (_dataView == null) return;
+
             using (_dataView.DeferRefresh())
             {
                 _dataView.GroupDescriptions.Clear();
@@ -158,6 +162,8 @@ namespace HandyControl.Controls
 
         private void SearchBar_SearchStarted(object sender, FunctionEventArgs<string> e)
         {
+            if (_dataView == null) return;
+
             _searchKey = e.Info;
             if (string.IsNullOrEmpty(_searchKey))
             {

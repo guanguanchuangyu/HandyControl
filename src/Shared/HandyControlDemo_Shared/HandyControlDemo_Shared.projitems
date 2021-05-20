@@ -254,6 +254,9 @@
     <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\TransitioningContentControlDemoCtl.xaml.cs">
       <DependentUpon>TransitioningContentControlDemoCtl.xaml</DependentUpon>
     </Compile>
+    <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\UniformSpacingPanelDemoCtl.xaml.cs">
+      <DependentUpon>UniformSpacingPanelDemoCtl.xaml</DependentUpon>
+    </Compile>
     <Compile Include="$(MSBuildThisFileDirectory)UserControl\Controls\WaterfallPanelDemoCtl.xaml.cs">
       <DependentUpon>WaterfallPanelDemoCtl.xaml</DependentUpon>
     </Compile>
@@ -796,6 +799,10 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="$(MSBuildThisFileDirectory)UserControl\Controls\UniformSpacingPanelDemoCtl.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="$(MSBuildThisFileDirectory)UserControl\Controls\WaterfallPanelDemoCtl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
@@ -1049,5 +1056,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="$(MSBuildThisFileDirectory)Service\Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)app.manifest" />
   </ItemGroup>
 </Project>

@@ -70,6 +70,8 @@ namespace HandyControl.Controls
             {
                 _storyboard.Completed -= Storyboard_Completed;
             }
+
+            _container = null;
         }
 
         private static void DataContextPropertyChanged(DependencyObject d, DependencyPropertyChangedEventArgs e) =>
@@ -259,7 +261,7 @@ namespace HandyControl.Controls
 
         private void OnIsOpenChanged(bool isOpen)
         {
-            if (Content == null) return;
+            if (Content == null || DesignerHelper.IsInDesignMode) return;
 
             _window = WindowHelper.GetActiveWindow();
             if (_window == null) return;
